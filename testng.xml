@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="methods">
+  <test thread-count="5" name="Test" parallel="methods">
+    <classes>
+      <!-- <class name="seleniumPack.TestMultipleSessions"/> -->
+      <class name="seleniumPack.multipleBrowsers"/>
+      <!-- <class name="seleniumPack.testNGProg"/> -->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
